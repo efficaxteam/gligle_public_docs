@@ -1,0 +1,101 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+    --ifm-color-primary: #BB6AFF;
+    --ifm-color-primary-dark: #AA5FE6;
+    --ifm-color-primary-darker: #9955CC;
+    --ifm-color-primary-darkest: #884BB3;
+    --ifm-color-primary-light: #C880FF;
+    --ifm-color-primary-lighter: #D592FF;
+    --ifm-color-primary-lightest: #E2A5FF;
+    --ifm-background-color: #0C0B0C !important;
+    --ifm-background-surface-color: var(--ifm-background-surface-solid) !important;
+
+    --ifm-color-gray-100: #D0D1D2;
+    --ifm-color-gray-200: #BBBEC0;
+    --ifm-color-gray-300: #B0B3B6;
+    --ifm-color-gray-400: #9DA2A7;
+    --ifm-color-gray-500: #8A9198;
+    --ifm-color-gray-600: #696F75;
+    --ifm-color-gray-700: #3B4045;
+    --ifm-color-gray-800: #262A2F;
+    --ifm-color-gray-900: #14171A;
+    --ifm-color-gray-1000: #090909;
+
+    --ifm-heading-color: var(--ifm-color-content-primary);
+
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+    /* Content Colors */
+    --ifm-color-content-primary: #EAEAEA;
+    --ifm-color-content-secondary: #CCCCCC;
+    --ifm-color-content-tertiary: #A3A3A3;
+    --ifm-color-content-negative: #ED603E;
+    --ifm-color-content-positive: #92C53A;
+    --ifm-color-content-warning: #E08A25;
+    --ifm-color-content-blue: #25A8FF;
+
+    /* Background Colors */
+    --ifm-background-surface-hover: rgba(166, 174, 203, 20%);
+    --ifm-background-surface-active: rgba(166, 174, 203, 30%);
+    --ifm-background-surface-light: rgba(166, 174, 203, 4%);
+    --ifm-background-surface-solid: #151515;
+    --ifm-background-surface-disabled: rgba(166, 174, 203, 8%);
+    --ifm-background-overlay: rgba(12, 11, 12, 90%);
+    --ifm-background-popup-solid: #26272D;
+    --ifm-background-negative: #ED603E;
+    --ifm-background-warning: #611d1d;
+    --ifm-background-blue: #3677ac;
+
+    /* Border Colors */
+    --ifm-border-1: rgba(166, 174, 203, 24%);
+    --ifm-border-2: rgba(166, 174, 203, 12%);
+    --ifm-border-3: rgba(166, 174, 203, 8%);
+    --ifm-border-4: rgba(166, 174, 203, 4%);
+    --ifm-border-negative: #ED603E;
+    --ifm-border-dark: #0C0B0C;
+    --ifm-border-white: #FFFFFF;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo img {
+    height: 16px;
+    /*margin-top: -10px;*/
+}
+
+.footer--dark {
+    --ifm-footer-background-color: var(--ifm-background-surface-light);
+}
+
+.alert--info {
+    --ifm-alert-background-color: var(--ifm-background-blue);
+    --ifm-alert-background-color-highlight: rgba(84, 199, 236, 0.15);
+}
+
+.alert--secondary {
+    --ifm-alert-background-color: var(--ifm-background-surface-solid);
+    --ifm-alert-background-color-highlight: rgba(235, 237, 240, 0.15);
+    --ifm-alert-border-color: var(--ifm-border-2);
+}
+
+.alert--warning {
+    --ifm-alert-background-color: var(--ifm-background-warning);
+    --ifm-alert-background-color-highlight: rgba(255, 186, 0, 0.15);
+    --ifm-alert-border-color: var(--ifm-background-negative);
+}
