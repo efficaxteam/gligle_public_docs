@@ -2,6 +2,7 @@
 
 ### Підтримка, зворотній зв'язок
 - Телеграм: [Олексій Мошура](https://t.me/efficax_alex)
+- Телеграм: [Gligle Support](https://t.me/GligleSupport)
 - Пошта: [support@gligle.app](mailto:support@gligle.app)
 
 ### Соціальні мережі

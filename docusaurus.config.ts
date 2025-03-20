@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Gligle Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Документація для користувачів та організаторів',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,10 +18,12 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'efficaxteam', // Usually your GitHub org/user name.
-  projectName: 'gligle-docs', // Usually your repo name.
+  projectName: 'gligle_public_docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  deploymentBranch: 'gh-pages',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -38,16 +40,16 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //   },
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -133,10 +135,6 @@ const config: Config = {
             },
           ],
         },
-//         mailto:support@gligle.app
-// https://t.me/gligleapp
-// https://twitter.com/gligleapp
-//   https://www.instagram.com/gligle.app/
         {
           title: 'Контакти',
           items: [
