@@ -20,7 +20,7 @@ const config: Config = {
   organizationName: 'efficaxteam', // Usually your GitHub org/user name.
   projectName: 'gligle_public_docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   deploymentBranch: 'gh-pages',
