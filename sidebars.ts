@@ -20,6 +20,7 @@ const sidebars: SidebarsConfig = {
   customerSidebar: [
     'customer/what-is-gligle',
     'customer/troubleshooting',
+    'customer/ticket-refund',
     // 'customer/faq',
     'customer/support'
     // {
